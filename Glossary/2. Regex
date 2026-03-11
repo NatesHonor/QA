@@ -1,0 +1,25 @@
+Regular Expression
+
+
+A rule written in code that checks whether text follows a specific pattern.
+
+Example:
+A simple regex might check:
+
+- Has text before @
+- Has @
+- Has text after @ 
+- Has a dot in the domain
+
+In code, it might look like something ugly like:
+^[^\s@]+@[^\s@]+\.[^\s@]+$
+
+Just understand the concerp do NOT memorize this.
+
+Regex = pattern matching tool.
+
+
+Why is Regex used for email?
+
+Because instead of manualy checking every single condition set regex makes it easier by knocking out patterns which is 
+efficient, compact, and common.

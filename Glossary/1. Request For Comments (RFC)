@@ -8,7 +8,7 @@ When doing validation there are two general type of validation, Technical Validi
 
 You always want to use this thinking process:
 
-1. Identify RIsk Areas
+1. Identify Risk Areas
 
 Ask? What could go wrong?
 
@@ -31,4 +31,18 @@ Don't do random tests, structure it like this:
 A) Structural Validation
 does it follow email structure rules?
 
-B) Character 
+B) Character Validation
+are allowed/disallowed characters handled correctly?
+
+C) Boundary Testing
+min and max length cases.
+
+D) Business Rule Validation 
+Duplication handling
+Verification logic
+Domain Restrictin
+
+E) Security Validation
+Injection Payloads.
+XSS attempts.
+SQL Injection Strings
