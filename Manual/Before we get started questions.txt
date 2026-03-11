@@ -1,0 +1,24 @@
+1. How would you define manual QA testing in your own words?
+Manual QA Testing is extensive and maticulalisly testing a application or website up to your clients standard and expectations using
+structured test cases that help outline the test you are going to complete, the steps to take it, the expected results, and your result (completed after the test is finished)
+
+
+2. What is a test case?
+A test case represents each individual document test completed. If a case passes that means that when following the steps you outlined need to be completed all the steps completed
+successfully and returned the expected result at the end.
+
+
+3. What is a bug report?
+A bug report is submitted to outline any bugs noticed when testing a software, for example if you notice that a login button isn't working and you create a report 
+(commonly requiring the steps you took, the expected result, the incorrect result, and any media that can support this report (ie video for any physical glitches, screenshot
+for content bugs)) Also include the serverity, the priority, and the environment which the test was performed
+
+
+4. What is the difference between functional testing and regression testing? I can't remember 
+Functional Testing - Tests whether a specific feature works according to requirements.
+Regression Testing - Tests whether previously working features still work after new changes.
+
+
+5. What is exploratory testing?
+Testing as if you are an user exploring the site, you are expected to perform any action you perceive a user to take. Press any buttons, fill in sample data, 
+pretend you're actually using the software. In a controlled maner.

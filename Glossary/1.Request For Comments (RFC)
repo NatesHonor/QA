@@ -1,0 +1,34 @@
+Request for comments is a formal document engineers publish that defines how internet standards work.The official rulebook on how internet systems behave.
+It defines how email is structures, HTTP works, IP addresses work, How TCP works.
+
+In terms of email, Email format rules are defined in RFC 5322 which defines what characters are allowed, how the local part works, how domains are structured, 
+What makes an email technically valid. Most applications do not fully implement RFC 5322 because it allows some weird but technically valid emails. For example consecutive dots when quoted.
+
+When doing validation there are two general type of validation, Technical Validity (RFC Compliant) and Business Validity (What the product or company chooses to allow.)
+
+You always want to use this thinking process:
+
+1. Identify RIsk Areas
+
+Ask? What could go wrong?
+
+Examples:
+
+- Malformed emails accepted
+- Valid emails rejected
+- Injection Vulnerabilities
+- Extremely long inputs crash systems
+- Multiple @ symbols mess up with parsing
+- Domain logic fails
+- UI validation differes from backend validation
+
+
+
+2. Break the problem into logical categories
+
+Don't do random tests, structure it like this:
+
+A) Structural Validation
+does it follow email structure rules?
+
+B) Character 
