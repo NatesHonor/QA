@@ -1,0 +1,24 @@
+Boundary Value Analysis is a test design technique based on the idea that "Systems fail more often at the 
+edges of input ranges than in the middle."
+
+Edges = boundaries
+
+Example:
+
+Requirement: "Age must be between 18 and 60"
+
+Most people would test random values or test in the middle ranges but as a QA you should be thinking: Where is
+it most likely to break?
+
+At:
+
+- The minimum
+- Just below the minimum
+- Just above the minimum
+- just below the maximum
+- the maximum 
+- just above the maximum
+
+
+These are boundaries.
+

@@ -1,0 +1,4 @@
+Defining Validation Rules
+
+Never assume what valid means, you want to always ask for format definition. Clarify the business and technical rules and always consider duplicates 
+verification encoding and limits.

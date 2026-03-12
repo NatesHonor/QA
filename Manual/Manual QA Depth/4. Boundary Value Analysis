@@ -1,0 +1,26 @@
+Requirement:
+
+Discount percentage must be between 0 and 50 inclusive.
+
+Question:
+
+Is 0 a boundary?
+Or is -1 the boundary?
+Or both?
+
+Think carefully.
+
+Min = 0
+Max = 50
+
+What are the correct boundary test values?
+
+Still -1,0,1,49,50,51
+
+In BVA you ALWAYS test just below and above the max and the minimum.
+If there are specific requirements for example no decimals in the requirement then do regular BVA 
+while also including decimal testing.
+
+Equivalence Partitioning is closely tied to BVA. When performing BVA it is beneficial for you to provide
+Equivalence Partitioning or (EP) instead of testing every possible value you test one or two representitive
+value from each group.

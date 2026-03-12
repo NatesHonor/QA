@@ -1,0 +1,44 @@
+When testing email validation you must think in layers:
+
+Layer 1: structured
+has one @
+Has domain
+Domain has a dots
+
+Layer 2: Character rules
+Allowed characters in local part
+Allowed characters in domain
+Dot placement rules
+No spaces
+
+Layer 3: Boundary Conditions
+Minimum length
+Maximum length
+Max local part length (64 chars technically)
+Max total length (254 chars technically)
+
+Layer 4: Business Rules
+Duplicate emails
+Verification required
+Disposable emails blocked
+Company domain only
+
+Layer 5: Security
+Injection attempts
+Script tags
+SQL payloads
+
+
+Pretend as if you were writing it in a test report. One clean paragraph.
+No casual language. This is communication training now. Take your time.
+
+During validation testing, multiple malformed email inputs containing more than one “@” symbol 
+were submitted (e.g., bontish@hor@fakemail.com and bandish@nt24@mroi.com). Both inputs were 
+accepted by the system and allowed registration to proceed.
+
+According to the stated email format requirements (single “@” symbol allowed), 
+these inputs should have been rejected. This indicates a gap in email format validation on either 
+the client side, server side, or both.
+
+Further investigation is recommended to review the email validation logic and ensure 
+enforcement of single “@” constraint.

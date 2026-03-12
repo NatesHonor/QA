@@ -1,0 +1,38 @@
+EP
+For decimal rule:
+
+We only need:
+
+One decimal inside range (e.g., 50.5)
+Maybe one near boundary (e.g., 1.1)
+That’s enough.
+
+Because decimals are one equivalence class.
+
+Requirement:
+
+Between 1 and 100 inclusive
+Whole numbers only
+Required
+We can divide inputs into partitions:
+
+Valid Partitions
+1️⃣ Whole numbers between 1 and 100
+
+Invalid Partitions
+2️⃣ Whole numbers less than 1
+3️⃣ Whole numbers greater than 100
+4️⃣ Decimal numbers
+5️⃣ Non-numeric input
+6️⃣ Empty input
+
+Each partition should behave consistently.
+
+So:
+
+If one decimal like 1.5 fails correctly,
+then 2.7, 50.9, 99.1 should also fail.
+
+They are all part of the same partition: “decimal values.”
+
+That’s why we don’t test 20 decimals.
