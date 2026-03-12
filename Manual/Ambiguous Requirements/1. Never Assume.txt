@@ -1,6 +1,0 @@
-NEVER Make assumptions as QA Engineer. Sometimes the requirements provided to me are vague, a QA does not guess, we always ask.
-
-
-
-If there is a special character requirement before making assumptions on what is or isn't allowed and refrence the QA Guidebook. Although "_" is a special character, in many 
-systems it is considered to not be a special chracter. Typically _ and - is alloed and only the specific special symbols @#$%^&* are usually blocked.
