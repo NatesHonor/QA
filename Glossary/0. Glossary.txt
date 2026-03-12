@@ -1,2 +1,5 @@
 RFC - Request for Comments
 Regex - A rule written in code that checks whether text follows a specific pattern
+Boundary Value Analysis - A test design technique based on the idea "Systems fail more at the edge of a input rage thanin the middle"
+Equivalence Partitioning - A test design technique that divides input data into groups where all values in a group are expected to behave similarly. One representative value from each group is tested.
+
